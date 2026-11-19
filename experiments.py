@@ -1,33 +1,32 @@
-"""Run paired-seed Blackjack experiments and write presentation-ready results."""
+"""Train independent Blackjack runs and compare policies on held-out shoes."""
 
 import argparse
 import csv
 import json
-import os
 from dataclasses import asdict, replace
+from datetime import datetime, timezone
+from itertools import product
 from pathlib import Path
+from tempfile import mkdtemp
 from time import perf_counter
-
-# Matrix products have only ten features. A single BLAS thread reduces overhead.
-for variable in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS"):
-    os.environ.setdefault(variable, "1")
 
 import matplotlib
 import numpy as np
 
-from blackjack_env import evaluate, generate_shoes, prepare_shoes
-from ea_solver import EAConfig, EvolutionaryAlgorithm, decode, fitness
+from blackjack_env import ShoeBatch, add_rule_arguments, basic_strategy_table
+from ea_solver import (
+    EA_CHOICES, EA_PARAMETER_TYPES, UPCARD_FIELDS, add_ea_arguments, champion_pair_rows, configs_from_args,
+    evolve, strategy_match_pct,
+)
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
-RANK_NAMES = ("2", "3", "4", "5", "6", "7", "8", "9", "10/J/Q/K", "A")
-HI_LO = np.array([1, 1, 1, 1, 1, 0, 0, 0, -1, -1])
-METRICS = ("Mean Profit", "Win Rate", "Std Dev", "Sharpe-like Ratio", "Ruin Rate")
-REFERENCE = "Risk-averse / arithmetic"
-NEUTRAL = "Risk-neutral / arithmetic"
-DISCRETE = "Risk-averse / discrete"
+POLICIES = ("Evolved", "Random Play", "Basic Strategy")
+METRICS = ("best_fitness", "average_fitness", "best_match_pct", "population_match_pct")
+POLICY_FIELDS = ("run", "selected_generation", "validation_fitness", "match_pct",
+                 "hand_type", "player_total", *UPCARD_FIELDS)
 
 
 def write_csv(path, fields, rows):
@@ -37,202 +36,213 @@ def write_csv(path, fields, rows):
         writer.writerows(rows)
 
 
-def run_seed(configs, seed, validation):
-    """Pair the variants on one initial population and one shoe stream per seed."""
-    solvers = {name: EvolutionaryAlgorithm(config, seed) for name, config in configs.items()}
-    shoe_rng = next(iter(solvers.values())).shoe_rng
-    reference = configs[REFERENCE]
-    for _ in range(reference.generations):
-        batch = prepare_shoes(generate_shoes(reference.shoes_per_generation, shoe_rng))
-        for solver in solvers.values():
-            solver.step(batch)
+def save_convergence(output, histories, fitness_objective):
+    generations = np.arange(1, histories.shape[1] + 1)
+    mean = histories.mean(axis=0)
+    sd = histories.std(axis=0)
+    fields = tuple(f"{metric}_{stat}" for metric in METRICS for stat in ("mean", "sd"))
+    write_csv(output / "convergence.csv", ("generation", *fields),
+              ((gen, *np.column_stack((m, s)).ravel()) for gen, m, s in zip(generations, mean, sd)))
 
-    histories, champions = {}, {}
-    for name, solver in solvers.items():
-        result = solver.result()
-        histories[name] = result.history
-        tags, ramps = decode(result.leaders)
-        config = configs[name]
-        scores = np.array([
-            fitness(evaluate(batch, tags, ramps), config.lambda_risk, config.ruin_penalty)
-            for batch in validation
-        ]).mean(axis=0)
-        best = int(scores.argmax())
-        champions[name] = (result.leaders[best], float(scores[best]), best + 1)
-    return histories, champions
-
-
-def test_metrics(test_batches, tags, ramps):
-    """Pool shoe profit and played hands, and count ruin per independent session."""
-    results = [evaluate(batch, tags, ramps) for batch in test_batches]
-    profits = np.concatenate([result.profits for result in results], axis=1)
-    means, spreads = profits.mean(axis=1), profits.std(axis=1)
-    wins = np.sum([result.wins for result in results], axis=0)
-    hands = np.sum([result.hands for result in results], axis=0)
-    ratios = np.divide(means, spreads, out=np.full_like(means, np.nan), where=spreads > 0)
-    ruin = np.mean([result.ruined for result in results], axis=0)
-    return np.column_stack((means, wins / hands, spreads, ratios, ruin))
-
-
-def convergence_outputs(output, histories, variants):
-    labels = ("Best fitness", "Average fitness")
-    figure, axes = plt.subplots(1, 2, figsize=(11, 4.5), layout="constrained")
-    summaries = []
-    members = []
-    for name in variants:
-        runs = histories[name]
-        raw = np.array([[(row.best, row.average, row.ruin_rate) for row in run] for run in runs])
-        x = np.arange(1, raw.shape[1] + 1)
-        mean, spread = raw.mean(axis=0), raw.std(axis=0)
-        members.extend((name, seed, generation, *row)
-                       for seed, run in enumerate(raw) for generation, row in enumerate(run, 1))
-        summaries.extend((name, gen, m[0], s[0], m[1], s[1], m[2], s[2])
-                         for gen, m, s in zip(x, mean, spread))
-        for column, ax in enumerate(axes):
-            line, = ax.plot(x, mean[:, column], label=name)
-            ax.fill_between(x, mean[:, column] - spread[:, column],
-                            mean[:, column] + spread[:, column], color=line.get_color(), alpha=0.15)
-            ax.set(xlabel="Generation", ylabel=labels[column] + " (units per shoe)")
-            ax.grid(alpha=0.25)
-    axes[0].legend(fontsize=8)
-    figure.suptitle("Training convergence across seeds (mean ± 1 SD)")
+    figure, (fitness_ax, match_ax) = plt.subplots(1, 2, figsize=(10, 4), layout="constrained")
+    series = (
+        (fitness_ax, "Generation leader"), (fitness_ax, "Population mean"),
+        (match_ax, "Generation leader"), (match_ax, "Population mean"),
+    )
+    for column, (axis, label) in enumerate(series):
+        values, spread = mean[:, column], sd[:, column]
+        line, = axis.plot(generations, values, label=label)
+        axis.fill_between(generations, values - spread, values + spread,
+                          color=line.get_color(), alpha=0.15)
+    fitness_label = ("Risk-adjusted fitness" if fitness_objective == "risk_adjusted"
+                     else "Mean net return per hand (units)")
+    fitness_ax.set(xlabel="Generation", ylabel=fitness_label)
+    fitness_ax.axhline(0, color="0.55", linewidth=1)
+    match_ax.set(xlabel="Generation", ylabel="Basic Strategy agreement (%)", ylim=(0, 100))
+    for axis in (fitness_ax, match_ax):
+        axis.grid(alpha=0.25)
+        axis.legend()
+    figure.suptitle("Training across independent runs · mean ± 1 SD")
     figure.savefig(output / "convergence.png", dpi=170)
     plt.close(figure)
-    write_csv(output / "convergence_runs.csv",
-              ("variant", "seed", "generation", "best_fitness", "average_fitness", "population_ruin"),
-              members)
-    write_csv(output / "convergence.csv",
-              ("variant", "generation", "best_mean", "best_sd", "average_mean", "average_sd",
-               "ruin_mean", "ruin_sd"), summaries)
 
 
-def ablation_outputs(output, histories, champions, results):
-    figure, axes = plt.subplots(2, 2, figsize=(9, 7), layout="constrained")
-    comparisons = [
-        ("Risk coefficient", (NEUTRAL, REFERENCE), ("λ = 0", "λ = 0.25")),
-        ("Crossover", (REFERENCE, DISCRETE), ("Arithmetic", "Discrete")),
-    ]
-    for column, (title, variants, labels) in enumerate(comparisons):
-        for row, metric in enumerate((0, 4)):
-            ax = axes[row, column]
-            values = np.stack([results[name][:, metric] for name in variants], axis=1)
-            for pair in values:
-                ax.plot([0, 1], pair, "o-", alpha=0.3, color="#247c87")
-            ax.plot([0, 1], values.mean(axis=0), "o-", linewidth=3, color="#17254a")
-            ax.set_xticks([0, 1], labels)
-            ax.set_ylabel("Mean profit (units per shoe)" if metric == 0 else "Session ruin rate")
-            ax.grid(axis="y", alpha=0.25)
-            if row == 0:
-                ax.axhline(0, color="0.55", linewidth=1)
-                ax.set_title(title)
-            else:
-                ax.set_ylim(-0.04, 1.04)
-    figure.suptitle("Held-out ablations by paired seed (dark line shows the mean)")
-    figure.savefig(output / "ablation.png", dpi=170)
-    plt.close(figure)
+def save_comparison(output, returns):
+    means = returns.mean(axis=0)
+    spreads = returns.std(axis=0)
+    write_csv(output / "baseline.csv", ("policy", "mean_return_per_hand", "sd_return_per_hand"),
+              zip(POLICIES, means, spreads))
 
-    write_csv(output / "ablation_runs.csv",
-              ("variant", "seed", "leader_generation", "training_fitness",
-               "validation_fitness", "training_minus_validation", *METRICS),
-              ((name, seed, generation, histories[name][seed][generation - 1].best, score,
-                histories[name][seed][generation - 1].best - score, *results[name][seed])
-               for name, entries in champions.items()
-               for seed, (_, score, generation) in enumerate(entries)))
-    write_csv(output / "ablation.csv", ("variant", "statistic", *METRICS),
-              ((name, statistic, *values) for name, runs in results.items()
-               for statistic, values in (("mean", runs.mean(axis=0)), ("sd", runs.std(axis=0)))))
-
-
-def baseline_outputs(output, entries, tags, ramps, results):
-    print("\nHeld-out baseline comparison")
-    print(f"{'Policy':<18}{'Mean profit':>13}{'Win rate':>12}{'Std dev':>11}"
-          f"{'Sharpe-like':>13}{'Ruin rate':>12}")
-    for name, (mean, win, sd, ratio, ruin) in zip(entries, results):
-        print(f"{name:<18}{mean:>13.3f}{win:>12.2%}{sd:>11.3f}{ratio:>13.3f}{ruin:>12.2%}")
-    write_csv(output / "baseline.csv", ("policy", *METRICS),
-              ((name, *row) for name, row in zip(entries, results)))
-
-    print(f"\n{'Rank':<10}{'Evolved':>12}{'Hi-Lo':>12}")
-    for rank, learned, standard in zip(RANK_NAMES, tags[0], HI_LO):
-        print(f"{rank:<10}{learned:>+12.3f}{standard:>+12d}")
-    print(f"Bet ramps (TC <1 / [1, 2) / [2, 3) / >=3)  "
-          f"evolved {ramps[0].tolist()}, Hi-Lo {ramps[2].tolist()}")
-    write_csv(output / "policies.csv", ("policy", *RANK_NAMES, "b0", "b1", "b2", "b3"),
-              ((name, *row, *ramp) for name, row, ramp in zip(entries, tags, ramps)))
-
-    figure, axes = plt.subplots(1, 3, figsize=(10, 3.8), layout="constrained")
-    for axis, index in zip(axes, (0, 2, 4)):
-        axis.bar(entries, results[:, index], color=("#247c87", "#aab5c8", "#485a84"))
-        axis.set_title(METRICS[index])
-        axis.tick_params(axis="x", labelrotation=20)
-        axis.grid(axis="y", alpha=0.25)
-        if index == 4:
-            axis.set_ylim(0, 1)
-    figure.suptitle("Held-out policy comparison")
+    figure, axis = plt.subplots(figsize=(6, 4), layout="constrained")
+    positions = np.arange(len(POLICIES))
+    axis.errorbar(positions, means, yerr=spreads, fmt="o", capsize=5, color="#17626b")
+    axis.set_xticks(positions, POLICIES)
+    axis.set_xlim(-0.5, len(POLICIES) - 0.5)
+    axis.set(ylabel="Mean net return per hand (units)", title="Held-out policy comparison")
+    axis.axhline(0, color="0.55", linewidth=1)
+    axis.grid(axis="y", alpha=0.25)
     figure.savefig(output / "baseline.png", dpi=170)
     plt.close(figure)
 
 
-def main():
+def build_sweep(base, sweep_values, mode="one-at-a-time"):
+    """Build distinct EA configurations starting from the base settings."""
+    if mode not in ("one-at-a-time", "grid"):
+        raise ValueError("sweep mode must be one-at-a-time or grid")
+    if not sweep_values:
+        return [base]
+    for name, values in sweep_values.items():
+        if len(values) == 0:
+            raise ValueError(f"sweep values for {name} cannot be empty")
+    if mode == "grid":
+        changes = (dict(zip(sweep_values, values)) for values in product(*sweep_values.values()))
+    else:
+        changes = ({name: value} for name, values in sweep_values.items() for value in values)
+    configs = dict.fromkeys([base] if mode == "one-at-a-time" else [])
+    for overrides in changes:
+        try:
+            configs[replace(base, **overrides)] = None
+        except ValueError as error:
+            settings = ", ".join(f"{key}={value}" for key, value in overrides.items())
+            raise ValueError(f"invalid sweep configuration ({settings}): {error}") from error
+    return list(configs)
+
+
+def unique_output(root, label):
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+    return Path(mkdtemp(prefix=f"{label}_{timestamp}_", dir=root))
+
+
+def save_champion_tables(output, result):
+    def rows():
+        for generation, entry in enumerate(result.history, start=1):
+            for row in champion_pair_rows(entry.leader):
+                yield "generation", generation, entry.best_fitness, None, *row
+        selected = result.selected_generation
+        training_fitness = result.history[selected - 1].best_fitness
+        for row in champion_pair_rows(result.policy):
+            yield "final", selected, training_fitness, result.validation_fitness, *row
+
+    write_csv(output / "champion_pair_decisions.csv",
+              ("stage", "generation", "training_fitness", "validation_fitness",
+               "row_kind", "player_hand", "hand_type", "player_total", *UPCARD_FIELDS), rows())
+
+
+def save_outputs(output, histories, members, returns, baseline_runs, policy_rows, fitness_objective):
+    write_csv(output / "convergence_runs.csv", ("run", "generation", *METRICS), members)
+    write_csv(output / "baseline_runs.csv", ("run", "policy", "return_per_hand"), baseline_runs)
+    write_csv(output / "policies.csv", POLICY_FIELDS, policy_rows)
+    save_convergence(output, histories, fitness_objective)
+    save_comparison(output, returns)
+
+
+def run_configuration(args, config, rules, reference, batch, index):
+    config_id = f"config_{index:03d}"
+    summary_dir = batch / config_id
+    summary_dir.mkdir()
+    metadata = {
+        "batch_id": batch.name, "config_id": config_id, "ea": asdict(config),
+        "blackjack": asdict(rules), "seed": args.seed, "num_runs": args.num_runs,
+        "test_hands": args.test_hands, "numpy_version": np.__version__,
+        "matplotlib_version": matplotlib.__version__,
+    }
+    histories, members, returns = [], [], []
+    baseline_runs, policy_rows, run_index = [], [], []
+    # Each config gets the same run seed tree so matching indices can be compared.
+    for run, run_seed in enumerate(np.random.SeedSequence(args.seed).spawn(args.num_runs), start=1):
+        label = f"run_pop{config.pop_size}_k{config.tournament_size}_h{config.num_hands}_r{run}"
+        output = unique_output(args.output, label)
+        print(f"{config_id} run {run}/{args.num_runs} in {output.resolve()}", flush=True)
+        started = perf_counter()
+        train_seed, test_seed, random_seed = run_seed.spawn(3)
+        result = evolve(config, rules, train_seed, reference, log_pair_tables=args.print_pair_tables)
+        history = [
+            (entry.best_fitness, entry.average_fitness, strategy_match_pct(entry.leader, reference),
+             entry.population_match_pct)
+            for entry in result.history
+        ]
+        test_batch = ShoeBatch(rules, args.test_hands, test_seed)
+        evolved_return, reference_return = test_batch.evaluate(np.stack((result.policy, reference)))
+        random_return = test_batch.evaluate_random(random_seed)
+        scores = (evolved_return, random_return, reference_return)
+        match = strategy_match_pct(result.policy, reference)
+        generation_rows = [(run, gen, *row) for gen, row in enumerate(history, start=1)]
+        baseline_rows = [(run, name, score) for name, score in zip(POLICIES, scores)]
+        final_policy_rows = [
+            (run, result.selected_generation, result.validation_fitness, match, hand_type, total, *actions)
+            for kind, _, hand_type, total, *actions in champion_pair_rows(result.policy)
+            if kind == "state"
+        ]
+        save_champion_tables(output, result)
+        save_outputs(output, np.asarray([history]), generation_rows, np.asarray([scores]),
+                     baseline_rows, final_policy_rows, config.fitness_objective)
+        (output / "run_config.json").write_text(json.dumps({
+            **metadata, "run": run, "run_id": output.name, "run_spawn_key": list(run_seed.spawn_key),
+            "selected_generation": result.selected_generation,
+        }, indent=2) + "\n", encoding="utf-8")
+
+        histories.append(history)
+        members.extend(generation_rows)
+        returns.append(scores)
+        baseline_runs.extend(baseline_rows)
+        policy_rows.extend(final_policy_rows)
+        run_index.append((config_id, run, output.name))
+        print(f"  Selected generation {result.selected_generation}  "
+              f"held-out {evolved_return:+.4f} units/hand  ({perf_counter() - started:.1f} s)", flush=True)
+
+    returns = np.asarray(returns)
+    save_outputs(summary_dir, np.asarray(histories), members, returns, baseline_runs, policy_rows,
+                 config.fitness_objective)
+    (summary_dir / "run_config.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
+    return config_id, returns.mean(axis=0), returns.std(axis=0), run_index
+
+
+def main(default_runs=3):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=Path("results"))
-    parser.add_argument("--quick", action="store_true", help="run a small pipeline smoke test")
-    parser.add_argument("--self-adaptive", action="store_true", help="evolve per-gene mutation scales")
+    add_ea_arguments(parser)
+    add_rule_arguments(parser)
+    parser.add_argument("--num-runs", type=int, default=default_runs)
+    parser.add_argument("--seed", type=int, default=455851, help="root seed for independent runs")
+    parser.add_argument("--test-hands", type=int, default=50000, help="held-out hands per run")
+    parser.add_argument("--output", type=Path, default=Path("results"), help="parent for new run folders")
+    parser.add_argument("--print-pair-tables", action="store_true", help="print generation and final champions")
+    group = parser.add_argument_group("parameter sweep")
+    group.add_argument("--sweep-mode", choices=("one-at-a-time", "grid"), default="one-at-a-time")
+    for name, value_type in EA_PARAMETER_TYPES.items():
+        flag = f"--sweep-{name.replace('_', '-')}"
+        group.add_argument(flag, nargs="+", type=value_type, choices=EA_CHOICES.get(name))
     args = parser.parse_args()
-    started = perf_counter()
+    try:
+        base, rules = configs_from_args(args)
+        if args.num_runs < 1 or args.test_hands < 1 or args.seed < 0:
+            raise ValueError("run and test hand counts must be positive and seed nonnegative")
+        sweep_values = {
+            name: getattr(args, f"sweep_{name}") for name in EA_PARAMETER_TYPES
+            if getattr(args, f"sweep_{name}") is not None
+        }
+        configs = build_sweep(base, sweep_values, args.sweep_mode)
+    except ValueError as error:
+        parser.error(str(error))
 
-    config = EAConfig(self_adaptive=args.self_adaptive)
-    seeds, test_sessions, shoes_per_session = 10, 10, 200
-    if args.quick:
-        config = replace(config, pop_size=12, generations=4, shoes_per_generation=8)
-        seeds, test_sessions, shoes_per_session = 2, 3, 8
-    configs = {REFERENCE: config, NEUTRAL: replace(config, lambda_risk=0.0),
-               DISCRETE: replace(config, crossover="discrete")}
     args.output.mkdir(parents=True, exist_ok=True)
-    # Independent random streams for validation and test, separate from training seeds.
-    validation_rng, test_rng = [
-        np.random.default_rng(seed) for seed in np.random.SeedSequence(455851).spawn(2)
-    ]
-    validation = [
-        prepare_shoes(generate_shoes(config.shoes_per_generation, validation_rng)) for _ in range(2)
-    ]
-    histories = {name: [] for name in configs}
-    champions = {name: [] for name in configs}
-    for seed in range(seeds):
-        seed_histories, seed_champions = run_seed(configs, seed, validation)
-        for name in configs:
-            histories[name].append(seed_histories[name])
-            champions[name].append(seed_champions[name])
-        print(f"Completed seed {seed + 1}/{seeds} ({perf_counter() - started:.1f} s)", flush=True)
+    batch = unique_output(args.output, "batch")
+    reference = basic_strategy_table()
+    summaries, run_index = [], []
+    for index, config in enumerate(configs, start=1):
+        config_id, means, spreads, runs = run_configuration(args, config, rules, reference, batch, index)
+        run_index.extend(runs)
+        values = tuple(getattr(config, name) for name in EA_PARAMETER_TYPES)
+        summaries.extend((config_id, *values, args.num_runs, name, mean, sd)
+                         for name, mean, sd in zip(POLICIES, means, spreads))
+        print(f"{config_id} held-out return per hand (mean ± SD)")
+        for name, mean, sd in zip(POLICIES, means, spreads):
+            print(f"  {name:>14}  {mean:+.4f} ± {sd:.4f}")
 
-    # Choose the primary champion entirely on validation, before looking at test results.
-    winning_seed = max(range(seeds), key=lambda seed: champions[REFERENCE][seed][1])
-    winning_genes, _, winning_generation = champions[REFERENCE][winning_seed]
-    test = [prepare_shoes(generate_shoes(shoes_per_session, test_rng))
-            for _ in range(test_sessions)]
-    all_tags, all_ramps = decode(np.array([entry[0] for runs in champions.values() for entry in runs]))
-    all_results = test_metrics(
-        test, np.vstack((all_tags, np.zeros(10), HI_LO)),
-        np.vstack((all_ramps, [1, 1, 1, 1], [1, 2, 4, 8])),
-    )
-    baseline_indices = [winning_seed, len(all_tags), len(all_tags) + 1]
-    baseline_outputs(
-        args.output, ("Evolved", "Flat", "Hi-Lo"), np.vstack((all_tags[winning_seed], np.zeros(10), HI_LO)),
-        np.vstack((all_ramps[winning_seed], [1, 1, 1, 1], [1, 2, 4, 8])), all_results[baseline_indices],
-    )
-    convergence_outputs(args.output, histories, configs)
-    ablation_outputs(args.output, histories, champions, {
-        name: all_results[index * seeds:(index + 1) * seeds]
-        for index, name in enumerate(configs)
-    })
-    (args.output / "run_config.json").write_text(json.dumps({
-        "variants": {name: asdict(variant) for name, variant in configs.items()},
-        "training_seeds": list(range(seeds)), "validation_sessions": 2,
-        "holdout_seed": 455851, "test_sessions": test_sessions,
-        "test_shoes_per_session": shoes_per_session, "winning_seed": winning_seed,
-        "winning_generation": winning_generation, "winning_genes": winning_genes.tolist(),
-    }, indent=2) + "\n", encoding="utf-8")
-    print(f"\nWrote CSVs and PNGs to {args.output} in {perf_counter() - started:.1f} s.")
+    write_csv(batch / "sweep_summary.csv",
+              ("config_id", *EA_PARAMETER_TYPES, "num_runs", "policy",
+               "mean_return_per_hand", "sd_return_per_hand"), summaries)
+    write_csv(batch / "run_index.csv", ("config_id", "run", "run_id"), run_index)
+    print(f"\nWrote configuration summaries to {batch.resolve()}")
 
 
 if __name__ == "__main__":
