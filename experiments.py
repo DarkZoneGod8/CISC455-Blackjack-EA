@@ -150,7 +150,11 @@ def run_configuration(args, config, rules, reference, batch, index):
     baseline_runs, policy_rows, run_index = [], [], []
     # Each config gets the same run seed tree so matching indices can be compared.
     for run, run_seed in enumerate(np.random.SeedSequence(args.seed).spawn(args.num_runs), start=1):
-        label = f"run_pop{config.pop_size}_k{config.tournament_size}_h{config.num_hands}_r{run}"
+        label = (
+            f"run_c{index:03d}_r{run:02d}_m{config.mutation_rate}"
+            f"_{config.parent_selection}_{config.crossover_type}_{config.mutation_type}"
+            f"_{config.survivor_selection}_{config.fitness_objective}"
+        )
         output = unique_output(args.output, label)
         print(f"{config_id} run {run}/{args.num_runs} in {output.resolve()}", flush=True)
         started = perf_counter()

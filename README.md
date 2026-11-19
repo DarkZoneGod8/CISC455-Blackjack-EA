@@ -94,7 +94,7 @@ The main table lists every hard or soft total against every dealer upcard. The e
 
 ## Results
 
-Run folders have names like `results/run_pop60_k3_h1500_r1_20261119_150000_a1b2c3d4/`. A UTC timestamp and a unique suffix keep repeated launches from overwriting earlier runs. Use `--output` to choose a different parent folder.
+Run folders have names like `results/run_c001_r01_m0.005_tournament_uniform_bit_flip_elitism_mean_return_20261119_150000_a1b2c3d4/`. Here `c001` matches `config_001` in the sweep summary, `r01` is the seed replicate, and `m0.005` is the mutation rate. The operator and fitness names follow. The remaining settings are recorded in each run's `run_config.json`. A UTC timestamp and a unique suffix keep repeated launches from overwriting earlier runs. Use `--output` to choose a different parent folder.
 
 | Output | Contents |
 | --- | --- |
