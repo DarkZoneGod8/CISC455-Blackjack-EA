@@ -108,4 +108,4 @@ Run folders have names like `results/run_c001_r01_m0.005_tournament_uniform_bit_
 
 Each invocation also creates a `results/batch_.../` folder. Its `run_index.csv` maps configurations and replicate indices to the individual run directories. Its `sweep_summary.csv` compares held-out return across settings, and each `config_.../` subfolder holds pooled convergence and baseline CSVs and plots. The summaries use population standard deviation across runs. A single run has a reported standard deviation of zero.
 
-The CSVs and plots already checked into the root of the results folder are from the earlier card-counting and bet-sizing experiment. Run the commands above to generate results for the Hit/Stand strategy.
+Published Hit/Stand results are in [the full grid sweep](results/all_options/) and [the follow-up sweep](results/additional_variations/).
