@@ -1,0 +1,937 @@
+stage,generation,training_fitness,validation_fitness,row_kind,player_hand,hand_type,player_total,vs_2,vs_3,vs_4,vs_5,vs_6,vs_7,vs_8,vs_9,vs_10,vs_A
+generation,1,-0.25945542570837193,,state,Hard 4,hard,4,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Stand,Hit,Stand
+generation,1,-0.25945542570837193,,state,Hard 5,hard,5,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit,Stand
+generation,1,-0.25945542570837193,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Hit
+generation,1,-0.25945542570837193,,state,Hard 7,hard,7,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand
+generation,1,-0.25945542570837193,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,1,-0.25945542570837193,,state,Hard 9,hard,9,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Hit
+generation,1,-0.25945542570837193,,state,Hard 10,hard,10,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Hit
+generation,1,-0.25945542570837193,,state,Hard 11,hard,11,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Hit,Hit
+generation,1,-0.25945542570837193,,state,Hard 12,hard,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,1,-0.25945542570837193,,state,Hard 13,hard,13,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand
+generation,1,-0.25945542570837193,,state,Hard 14,hard,14,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand
+generation,1,-0.25945542570837193,,state,Hard 15,hard,15,Stand,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,1,-0.25945542570837193,,state,Hard 16,hard,16,Hit,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand
+generation,1,-0.25945542570837193,,state,Hard 17,hard,17,Stand,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,1,-0.25945542570837193,,state,Hard 18,hard,18,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit
+generation,1,-0.25945542570837193,,state,Hard 19,hard,19,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,1,-0.25945542570837193,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,1,-0.25945542570837193,,state,Soft 12,soft,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,1,-0.25945542570837193,,state,Soft 13,soft,13,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,1,-0.25945542570837193,,state,Soft 14,soft,14,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,1,-0.25945542570837193,,state,Soft 15,soft,15,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Hit
+generation,1,-0.25945542570837193,,state,Soft 16,soft,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,1,-0.25945542570837193,,state,Soft 17,soft,17,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,1,-0.25945542570837193,,state,Soft 18,soft,18,Hit,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Hit,Hit
+generation,1,-0.25945542570837193,,state,Soft 19,soft,19,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Stand
+generation,1,-0.25945542570837193,,state,Soft 20,soft,20,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Hit
+generation,1,-0.25945542570837193,,pair,2+2,hard,4,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Stand,Hit,Stand
+generation,1,-0.25945542570837193,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Hit
+generation,1,-0.25945542570837193,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,1,-0.25945542570837193,,pair,5+5,hard,10,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Hit
+generation,1,-0.25945542570837193,,pair,6+6,hard,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,1,-0.25945542570837193,,pair,7+7,hard,14,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand
+generation,1,-0.25945542570837193,,pair,8+8,hard,16,Hit,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand
+generation,1,-0.25945542570837193,,pair,9+9,hard,18,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit
+generation,1,-0.25945542570837193,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,1,-0.25945542570837193,,pair,A+A,soft,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,2,-0.26201040761062067,,state,Hard 4,hard,4,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Stand,Hit,Stand
+generation,2,-0.26201040761062067,,state,Hard 5,hard,5,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit,Stand
+generation,2,-0.26201040761062067,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Hit
+generation,2,-0.26201040761062067,,state,Hard 7,hard,7,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand
+generation,2,-0.26201040761062067,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,2,-0.26201040761062067,,state,Hard 9,hard,9,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Hit
+generation,2,-0.26201040761062067,,state,Hard 10,hard,10,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Hit
+generation,2,-0.26201040761062067,,state,Hard 11,hard,11,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Hit,Hit
+generation,2,-0.26201040761062067,,state,Hard 12,hard,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,2,-0.26201040761062067,,state,Hard 13,hard,13,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand
+generation,2,-0.26201040761062067,,state,Hard 14,hard,14,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand
+generation,2,-0.26201040761062067,,state,Hard 15,hard,15,Stand,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,2,-0.26201040761062067,,state,Hard 16,hard,16,Hit,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand
+generation,2,-0.26201040761062067,,state,Hard 17,hard,17,Stand,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,2,-0.26201040761062067,,state,Hard 18,hard,18,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit
+generation,2,-0.26201040761062067,,state,Hard 19,hard,19,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,2,-0.26201040761062067,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,2,-0.26201040761062067,,state,Soft 12,soft,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,2,-0.26201040761062067,,state,Soft 13,soft,13,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,2,-0.26201040761062067,,state,Soft 14,soft,14,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,2,-0.26201040761062067,,state,Soft 15,soft,15,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Hit
+generation,2,-0.26201040761062067,,state,Soft 16,soft,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,2,-0.26201040761062067,,state,Soft 17,soft,17,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,2,-0.26201040761062067,,state,Soft 18,soft,18,Hit,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Hit,Hit
+generation,2,-0.26201040761062067,,state,Soft 19,soft,19,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Stand
+generation,2,-0.26201040761062067,,state,Soft 20,soft,20,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Hit
+generation,2,-0.26201040761062067,,pair,2+2,hard,4,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Stand,Hit,Stand
+generation,2,-0.26201040761062067,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Hit
+generation,2,-0.26201040761062067,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,2,-0.26201040761062067,,pair,5+5,hard,10,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Hit
+generation,2,-0.26201040761062067,,pair,6+6,hard,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,2,-0.26201040761062067,,pair,7+7,hard,14,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand
+generation,2,-0.26201040761062067,,pair,8+8,hard,16,Hit,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand
+generation,2,-0.26201040761062067,,pair,9+9,hard,18,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit
+generation,2,-0.26201040761062067,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,2,-0.26201040761062067,,pair,A+A,soft,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,3,-0.2755733736868126,,state,Hard 4,hard,4,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,3,-0.2755733736868126,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,3,-0.2755733736868126,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,3,-0.2755733736868126,,state,Hard 7,hard,7,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit
+generation,3,-0.2755733736868126,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand
+generation,3,-0.2755733736868126,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Hit
+generation,3,-0.2755733736868126,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Hit
+generation,3,-0.2755733736868126,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand
+generation,3,-0.2755733736868126,,state,Hard 12,hard,12,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand
+generation,3,-0.2755733736868126,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Stand,Stand
+generation,3,-0.2755733736868126,,state,Hard 14,hard,14,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,3,-0.2755733736868126,,state,Hard 15,hard,15,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Stand
+generation,3,-0.2755733736868126,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,3,-0.2755733736868126,,state,Hard 17,hard,17,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Hit
+generation,3,-0.2755733736868126,,state,Hard 18,hard,18,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Stand
+generation,3,-0.2755733736868126,,state,Hard 19,hard,19,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,3,-0.2755733736868126,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,3,-0.2755733736868126,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,3,-0.2755733736868126,,state,Soft 13,soft,13,Stand,Hit,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit
+generation,3,-0.2755733736868126,,state,Soft 14,soft,14,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,3,-0.2755733736868126,,state,Soft 15,soft,15,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Stand
+generation,3,-0.2755733736868126,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand
+generation,3,-0.2755733736868126,,state,Soft 17,soft,17,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit,Hit
+generation,3,-0.2755733736868126,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,3,-0.2755733736868126,,state,Soft 19,soft,19,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,3,-0.2755733736868126,,state,Soft 20,soft,20,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,3,-0.2755733736868126,,pair,2+2,hard,4,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,3,-0.2755733736868126,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,3,-0.2755733736868126,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand
+generation,3,-0.2755733736868126,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Hit
+generation,3,-0.2755733736868126,,pair,6+6,hard,12,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand
+generation,3,-0.2755733736868126,,pair,7+7,hard,14,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,3,-0.2755733736868126,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,3,-0.2755733736868126,,pair,9+9,hard,18,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Stand
+generation,3,-0.2755733736868126,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,3,-0.2755733736868126,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,4,-0.2596665803621579,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,4,-0.2596665803621579,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,4,-0.2596665803621579,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,4,-0.2596665803621579,,state,Hard 7,hard,7,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit
+generation,4,-0.2596665803621579,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand
+generation,4,-0.2596665803621579,,state,Hard 9,hard,9,Hit,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Stand
+generation,4,-0.2596665803621579,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Hit
+generation,4,-0.2596665803621579,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand
+generation,4,-0.2596665803621579,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,4,-0.2596665803621579,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,4,-0.2596665803621579,,state,Hard 14,hard,14,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,4,-0.2596665803621579,,state,Hard 15,hard,15,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,4,-0.2596665803621579,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,4,-0.2596665803621579,,state,Hard 17,hard,17,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Hit
+generation,4,-0.2596665803621579,,state,Hard 18,hard,18,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Stand
+generation,4,-0.2596665803621579,,state,Hard 19,hard,19,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,4,-0.2596665803621579,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,4,-0.2596665803621579,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit
+generation,4,-0.2596665803621579,,state,Soft 13,soft,13,Stand,Hit,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit
+generation,4,-0.2596665803621579,,state,Soft 14,soft,14,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Stand
+generation,4,-0.2596665803621579,,state,Soft 15,soft,15,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Stand
+generation,4,-0.2596665803621579,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Hit,Stand
+generation,4,-0.2596665803621579,,state,Soft 17,soft,17,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit
+generation,4,-0.2596665803621579,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,4,-0.2596665803621579,,state,Soft 19,soft,19,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,4,-0.2596665803621579,,state,Soft 20,soft,20,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,4,-0.2596665803621579,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,4,-0.2596665803621579,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,4,-0.2596665803621579,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand
+generation,4,-0.2596665803621579,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Hit
+generation,4,-0.2596665803621579,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,4,-0.2596665803621579,,pair,7+7,hard,14,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,4,-0.2596665803621579,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,4,-0.2596665803621579,,pair,9+9,hard,18,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Stand
+generation,4,-0.2596665803621579,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,4,-0.2596665803621579,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit
+generation,5,-0.25376629589140515,,state,Hard 4,hard,4,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Stand
+generation,5,-0.25376629589140515,,state,Hard 5,hard,5,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Stand
+generation,5,-0.25376629589140515,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,5,-0.25376629589140515,,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,5,-0.25376629589140515,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,5,-0.25376629589140515,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Hit
+generation,5,-0.25376629589140515,,state,Hard 10,hard,10,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Hit
+generation,5,-0.25376629589140515,,state,Hard 11,hard,11,Hit,Stand,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit
+generation,5,-0.25376629589140515,,state,Hard 12,hard,12,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Stand
+generation,5,-0.25376629589140515,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Stand
+generation,5,-0.25376629589140515,,state,Hard 14,hard,14,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,5,-0.25376629589140515,,state,Hard 15,hard,15,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,5,-0.25376629589140515,,state,Hard 16,hard,16,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand
+generation,5,-0.25376629589140515,,state,Hard 17,hard,17,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,5,-0.25376629589140515,,state,Hard 18,hard,18,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit
+generation,5,-0.25376629589140515,,state,Hard 19,hard,19,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit
+generation,5,-0.25376629589140515,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,5,-0.25376629589140515,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Stand
+generation,5,-0.25376629589140515,,state,Soft 13,soft,13,Stand,Hit,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Hit
+generation,5,-0.25376629589140515,,state,Soft 14,soft,14,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand
+generation,5,-0.25376629589140515,,state,Soft 15,soft,15,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Stand
+generation,5,-0.25376629589140515,,state,Soft 16,soft,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,5,-0.25376629589140515,,state,Soft 17,soft,17,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit,Hit
+generation,5,-0.25376629589140515,,state,Soft 18,soft,18,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,5,-0.25376629589140515,,state,Soft 19,soft,19,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Stand
+generation,5,-0.25376629589140515,,state,Soft 20,soft,20,Hit,Stand,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,5,-0.25376629589140515,,pair,2+2,hard,4,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Stand
+generation,5,-0.25376629589140515,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,5,-0.25376629589140515,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,5,-0.25376629589140515,,pair,5+5,hard,10,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Hit
+generation,5,-0.25376629589140515,,pair,6+6,hard,12,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Stand
+generation,5,-0.25376629589140515,,pair,7+7,hard,14,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,5,-0.25376629589140515,,pair,8+8,hard,16,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand
+generation,5,-0.25376629589140515,,pair,9+9,hard,18,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit
+generation,5,-0.25376629589140515,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,5,-0.25376629589140515,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Stand
+generation,6,-0.25517591354298674,,state,Hard 4,hard,4,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,6,-0.25517591354298674,,state,Hard 5,hard,5,Stand,Hit,Stand,Hit,Stand,Stand,Stand,Hit,Hit,Stand
+generation,6,-0.25517591354298674,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Hit
+generation,6,-0.25517591354298674,,state,Hard 7,hard,7,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+generation,6,-0.25517591354298674,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand
+generation,6,-0.25517591354298674,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Hit
+generation,6,-0.25517591354298674,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit
+generation,6,-0.25517591354298674,,state,Hard 11,hard,11,Hit,Stand,Stand,Stand,Hit,Hit,Hit,Stand,Hit,Hit
+generation,6,-0.25517591354298674,,state,Hard 12,hard,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Stand
+generation,6,-0.25517591354298674,,state,Hard 13,hard,13,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand
+generation,6,-0.25517591354298674,,state,Hard 14,hard,14,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Hit,Hit
+generation,6,-0.25517591354298674,,state,Hard 15,hard,15,Hit,Hit,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,6,-0.25517591354298674,,state,Hard 16,hard,16,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,6,-0.25517591354298674,,state,Hard 17,hard,17,Stand,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Hit
+generation,6,-0.25517591354298674,,state,Hard 18,hard,18,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,6,-0.25517591354298674,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand
+generation,6,-0.25517591354298674,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,6,-0.25517591354298674,,state,Soft 12,soft,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,6,-0.25517591354298674,,state,Soft 13,soft,13,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,6,-0.25517591354298674,,state,Soft 14,soft,14,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand
+generation,6,-0.25517591354298674,,state,Soft 15,soft,15,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Hit
+generation,6,-0.25517591354298674,,state,Soft 16,soft,16,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Hit
+generation,6,-0.25517591354298674,,state,Soft 17,soft,17,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit,Stand
+generation,6,-0.25517591354298674,,state,Soft 18,soft,18,Hit,Hit,Hit,Stand,Hit,Stand,Hit,Stand,Hit,Stand
+generation,6,-0.25517591354298674,,state,Soft 19,soft,19,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Stand
+generation,6,-0.25517591354298674,,state,Soft 20,soft,20,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Hit,Hit
+generation,6,-0.25517591354298674,,pair,2+2,hard,4,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,6,-0.25517591354298674,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Hit
+generation,6,-0.25517591354298674,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand
+generation,6,-0.25517591354298674,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit
+generation,6,-0.25517591354298674,,pair,6+6,hard,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Stand
+generation,6,-0.25517591354298674,,pair,7+7,hard,14,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Hit,Hit
+generation,6,-0.25517591354298674,,pair,8+8,hard,16,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,6,-0.25517591354298674,,pair,9+9,hard,18,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,6,-0.25517591354298674,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,6,-0.25517591354298674,,pair,A+A,soft,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,7,-0.20916652661054536,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,7,-0.20916652661054536,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,7,-0.20916652661054536,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,7,-0.20916652661054536,,state,Hard 7,hard,7,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,7,-0.20916652661054536,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,7,-0.20916652661054536,,state,Hard 9,hard,9,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Hit
+generation,7,-0.20916652661054536,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Hit
+generation,7,-0.20916652661054536,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand
+generation,7,-0.20916652661054536,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,7,-0.20916652661054536,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand
+generation,7,-0.20916652661054536,,state,Hard 14,hard,14,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,7,-0.20916652661054536,,state,Hard 15,hard,15,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Stand
+generation,7,-0.20916652661054536,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,7,-0.20916652661054536,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,7,-0.20916652661054536,,state,Hard 18,hard,18,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Stand
+generation,7,-0.20916652661054536,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,7,-0.20916652661054536,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand
+generation,7,-0.20916652661054536,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,7,-0.20916652661054536,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+generation,7,-0.20916652661054536,,state,Soft 14,soft,14,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,7,-0.20916652661054536,,state,Soft 15,soft,15,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Stand
+generation,7,-0.20916652661054536,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Stand
+generation,7,-0.20916652661054536,,state,Soft 17,soft,17,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit
+generation,7,-0.20916652661054536,,state,Soft 18,soft,18,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,7,-0.20916652661054536,,state,Soft 19,soft,19,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit
+generation,7,-0.20916652661054536,,state,Soft 20,soft,20,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,7,-0.20916652661054536,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,7,-0.20916652661054536,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,7,-0.20916652661054536,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,7,-0.20916652661054536,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Hit
+generation,7,-0.20916652661054536,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,7,-0.20916652661054536,,pair,7+7,hard,14,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,7,-0.20916652661054536,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,7,-0.20916652661054536,,pair,9+9,hard,18,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Stand
+generation,7,-0.20916652661054536,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand
+generation,7,-0.20916652661054536,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,8,-0.2323089847611149,,state,Hard 4,hard,4,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Stand
+generation,8,-0.2323089847611149,,state,Hard 5,hard,5,Stand,Hit,Stand,Hit,Stand,Stand,Stand,Hit,Hit,Stand
+generation,8,-0.2323089847611149,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Hit
+generation,8,-0.2323089847611149,,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,8,-0.2323089847611149,,state,Hard 8,hard,8,Stand,Hit,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand
+generation,8,-0.2323089847611149,,state,Hard 9,hard,9,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Hit
+generation,8,-0.2323089847611149,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Hit
+generation,8,-0.2323089847611149,,state,Hard 11,hard,11,Hit,Hit,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit
+generation,8,-0.2323089847611149,,state,Hard 12,hard,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,8,-0.2323089847611149,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand
+generation,8,-0.2323089847611149,,state,Hard 14,hard,14,Hit,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit
+generation,8,-0.2323089847611149,,state,Hard 15,hard,15,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,8,-0.2323089847611149,,state,Hard 16,hard,16,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Stand
+generation,8,-0.2323089847611149,,state,Hard 17,hard,17,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit
+generation,8,-0.2323089847611149,,state,Hard 18,hard,18,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit
+generation,8,-0.2323089847611149,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,8,-0.2323089847611149,,state,Hard 20,hard,20,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,8,-0.2323089847611149,,state,Soft 12,soft,12,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,8,-0.2323089847611149,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Hit,Hit
+generation,8,-0.2323089847611149,,state,Soft 14,soft,14,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,8,-0.2323089847611149,,state,Soft 15,soft,15,Stand,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,8,-0.2323089847611149,,state,Soft 16,soft,16,Hit,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,8,-0.2323089847611149,,state,Soft 17,soft,17,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Stand
+generation,8,-0.2323089847611149,,state,Soft 18,soft,18,Hit,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Hit,Hit
+generation,8,-0.2323089847611149,,state,Soft 19,soft,19,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit,Stand,Stand
+generation,8,-0.2323089847611149,,state,Soft 20,soft,20,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Hit,Hit,Stand
+generation,8,-0.2323089847611149,,pair,2+2,hard,4,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Stand
+generation,8,-0.2323089847611149,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Hit
+generation,8,-0.2323089847611149,,pair,4+4,hard,8,Stand,Hit,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand
+generation,8,-0.2323089847611149,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Hit
+generation,8,-0.2323089847611149,,pair,6+6,hard,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,8,-0.2323089847611149,,pair,7+7,hard,14,Hit,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit
+generation,8,-0.2323089847611149,,pair,8+8,hard,16,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Stand
+generation,8,-0.2323089847611149,,pair,9+9,hard,18,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit
+generation,8,-0.2323089847611149,,pair,10+10,hard,20,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,8,-0.2323089847611149,,pair,A+A,soft,12,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,9,-0.19721673245980237,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,9,-0.19721673245980237,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Stand
+generation,9,-0.19721673245980237,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit
+generation,9,-0.19721673245980237,,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Hit
+generation,9,-0.19721673245980237,,state,Hard 8,hard,8,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Stand
+generation,9,-0.19721673245980237,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Stand,Stand,Hit,Hit,Hit,Stand
+generation,9,-0.19721673245980237,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Hit
+generation,9,-0.19721673245980237,,state,Hard 11,hard,11,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand
+generation,9,-0.19721673245980237,,state,Hard 12,hard,12,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,9,-0.19721673245980237,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand
+generation,9,-0.19721673245980237,,state,Hard 14,hard,14,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Hit
+generation,9,-0.19721673245980237,,state,Hard 15,hard,15,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Hit
+generation,9,-0.19721673245980237,,state,Hard 16,hard,16,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Hit
+generation,9,-0.19721673245980237,,state,Hard 17,hard,17,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,9,-0.19721673245980237,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,9,-0.19721673245980237,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit
+generation,9,-0.19721673245980237,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,9,-0.19721673245980237,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Stand
+generation,9,-0.19721673245980237,,state,Soft 13,soft,13,Hit,Stand,Hit,Hit,Hit,Stand,Hit,Stand,Stand,Hit
+generation,9,-0.19721673245980237,,state,Soft 14,soft,14,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,9,-0.19721673245980237,,state,Soft 15,soft,15,Stand,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Stand
+generation,9,-0.19721673245980237,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Hit
+generation,9,-0.19721673245980237,,state,Soft 17,soft,17,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Hit,Stand,Hit
+generation,9,-0.19721673245980237,,state,Soft 18,soft,18,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit
+generation,9,-0.19721673245980237,,state,Soft 19,soft,19,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,9,-0.19721673245980237,,state,Soft 20,soft,20,Hit,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Hit
+generation,9,-0.19721673245980237,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,9,-0.19721673245980237,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit
+generation,9,-0.19721673245980237,,pair,4+4,hard,8,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Stand
+generation,9,-0.19721673245980237,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Hit
+generation,9,-0.19721673245980237,,pair,6+6,hard,12,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,9,-0.19721673245980237,,pair,7+7,hard,14,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Hit
+generation,9,-0.19721673245980237,,pair,8+8,hard,16,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Hit
+generation,9,-0.19721673245980237,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,9,-0.19721673245980237,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,9,-0.19721673245980237,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Stand
+generation,10,-0.2149213829260388,,state,Hard 4,hard,4,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,10,-0.2149213829260388,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,10,-0.2149213829260388,,state,Hard 6,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,10,-0.2149213829260388,,state,Hard 7,hard,7,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Hit
+generation,10,-0.2149213829260388,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand
+generation,10,-0.2149213829260388,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Stand
+generation,10,-0.2149213829260388,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,10,-0.2149213829260388,,state,Hard 11,hard,11,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit,Hit,Stand
+generation,10,-0.2149213829260388,,state,Hard 12,hard,12,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit
+generation,10,-0.2149213829260388,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand
+generation,10,-0.2149213829260388,,state,Hard 14,hard,14,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit
+generation,10,-0.2149213829260388,,state,Hard 15,hard,15,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Hit
+generation,10,-0.2149213829260388,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,10,-0.2149213829260388,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand
+generation,10,-0.2149213829260388,,state,Hard 18,hard,18,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Stand
+generation,10,-0.2149213829260388,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,10,-0.2149213829260388,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand
+generation,10,-0.2149213829260388,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit
+generation,10,-0.2149213829260388,,state,Soft 13,soft,13,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,10,-0.2149213829260388,,state,Soft 14,soft,14,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,10,-0.2149213829260388,,state,Soft 15,soft,15,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Hit
+generation,10,-0.2149213829260388,,state,Soft 16,soft,16,Stand,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Stand
+generation,10,-0.2149213829260388,,state,Soft 17,soft,17,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,10,-0.2149213829260388,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit
+generation,10,-0.2149213829260388,,state,Soft 19,soft,19,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,10,-0.2149213829260388,,state,Soft 20,soft,20,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,10,-0.2149213829260388,,pair,2+2,hard,4,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,10,-0.2149213829260388,,pair,3+3,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,10,-0.2149213829260388,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand
+generation,10,-0.2149213829260388,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,10,-0.2149213829260388,,pair,6+6,hard,12,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit
+generation,10,-0.2149213829260388,,pair,7+7,hard,14,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit
+generation,10,-0.2149213829260388,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,10,-0.2149213829260388,,pair,9+9,hard,18,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Stand
+generation,10,-0.2149213829260388,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand
+generation,10,-0.2149213829260388,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit
+generation,11,-0.1680070199531326,,state,Hard 4,hard,4,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,11,-0.1680070199531326,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,11,-0.1680070199531326,,state,Hard 6,hard,6,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+generation,11,-0.1680070199531326,,state,Hard 7,hard,7,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Hit
+generation,11,-0.1680070199531326,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,11,-0.1680070199531326,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Stand
+generation,11,-0.1680070199531326,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,11,-0.1680070199531326,,state,Hard 11,hard,11,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit,Hit,Stand
+generation,11,-0.1680070199531326,,state,Hard 12,hard,12,Hit,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Hit
+generation,11,-0.1680070199531326,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand
+generation,11,-0.1680070199531326,,state,Hard 14,hard,14,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,11,-0.1680070199531326,,state,Hard 15,hard,15,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Hit
+generation,11,-0.1680070199531326,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Stand,Hit
+generation,11,-0.1680070199531326,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand
+generation,11,-0.1680070199531326,,state,Hard 18,hard,18,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Stand
+generation,11,-0.1680070199531326,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,11,-0.1680070199531326,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,11,-0.1680070199531326,,state,Soft 12,soft,12,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit
+generation,11,-0.1680070199531326,,state,Soft 13,soft,13,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,11,-0.1680070199531326,,state,Soft 14,soft,14,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,11,-0.1680070199531326,,state,Soft 15,soft,15,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Hit
+generation,11,-0.1680070199531326,,state,Soft 16,soft,16,Stand,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Stand
+generation,11,-0.1680070199531326,,state,Soft 17,soft,17,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,11,-0.1680070199531326,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit
+generation,11,-0.1680070199531326,,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,11,-0.1680070199531326,,state,Soft 20,soft,20,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit
+generation,11,-0.1680070199531326,,pair,2+2,hard,4,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,11,-0.1680070199531326,,pair,3+3,hard,6,Hit,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+generation,11,-0.1680070199531326,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,11,-0.1680070199531326,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,11,-0.1680070199531326,,pair,6+6,hard,12,Hit,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Hit
+generation,11,-0.1680070199531326,,pair,7+7,hard,14,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,11,-0.1680070199531326,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Stand,Hit
+generation,11,-0.1680070199531326,,pair,9+9,hard,18,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Stand
+generation,11,-0.1680070199531326,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,11,-0.1680070199531326,,pair,A+A,soft,12,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit
+generation,12,-0.2068576242670888,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,12,-0.2068576242670888,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,12,-0.2068576242670888,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,12,-0.2068576242670888,,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Hit
+generation,12,-0.2068576242670888,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,12,-0.2068576242670888,,state,Hard 9,hard,9,Hit,Stand,Hit,Stand,Hit,Hit,Hit,Stand,Hit,Stand
+generation,12,-0.2068576242670888,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,12,-0.2068576242670888,,state,Hard 11,hard,11,Hit,Stand,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand
+generation,12,-0.2068576242670888,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,12,-0.2068576242670888,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand
+generation,12,-0.2068576242670888,,state,Hard 14,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,12,-0.2068576242670888,,state,Hard 15,hard,15,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand
+generation,12,-0.2068576242670888,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,12,-0.2068576242670888,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,12,-0.2068576242670888,,state,Hard 18,hard,18,Stand,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,12,-0.2068576242670888,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,12,-0.2068576242670888,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,12,-0.2068576242670888,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,12,-0.2068576242670888,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,12,-0.2068576242670888,,state,Soft 14,soft,14,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,12,-0.2068576242670888,,state,Soft 15,soft,15,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Stand,Hit
+generation,12,-0.2068576242670888,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Hit,Hit,Stand
+generation,12,-0.2068576242670888,,state,Soft 17,soft,17,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,12,-0.2068576242670888,,state,Soft 18,soft,18,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit
+generation,12,-0.2068576242670888,,state,Soft 19,soft,19,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,12,-0.2068576242670888,,state,Soft 20,soft,20,Stand,Stand,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Stand
+generation,12,-0.2068576242670888,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,12,-0.2068576242670888,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,12,-0.2068576242670888,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,12,-0.2068576242670888,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,12,-0.2068576242670888,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,12,-0.2068576242670888,,pair,7+7,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,12,-0.2068576242670888,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,12,-0.2068576242670888,,pair,9+9,hard,18,Stand,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,12,-0.2068576242670888,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,12,-0.2068576242670888,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,13,-0.17230614281100642,,state,Hard 4,hard,4,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,13,-0.17230614281100642,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Hit
+generation,13,-0.17230614281100642,,state,Hard 6,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,13,-0.17230614281100642,,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit
+generation,13,-0.17230614281100642,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,13,-0.17230614281100642,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand
+generation,13,-0.17230614281100642,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,13,-0.17230614281100642,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand
+generation,13,-0.17230614281100642,,state,Hard 12,hard,12,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit
+generation,13,-0.17230614281100642,,state,Hard 13,hard,13,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Hit,Stand,Stand
+generation,13,-0.17230614281100642,,state,Hard 14,hard,14,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,13,-0.17230614281100642,,state,Hard 15,hard,15,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Hit
+generation,13,-0.17230614281100642,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit
+generation,13,-0.17230614281100642,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,13,-0.17230614281100642,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,13,-0.17230614281100642,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,13,-0.17230614281100642,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,13,-0.17230614281100642,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit
+generation,13,-0.17230614281100642,,state,Soft 13,soft,13,Hit,Stand,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,13,-0.17230614281100642,,state,Soft 14,soft,14,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,13,-0.17230614281100642,,state,Soft 15,soft,15,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,13,-0.17230614281100642,,state,Soft 16,soft,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Stand,Hit
+generation,13,-0.17230614281100642,,state,Soft 17,soft,17,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Hit
+generation,13,-0.17230614281100642,,state,Soft 18,soft,18,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit
+generation,13,-0.17230614281100642,,state,Soft 19,soft,19,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,13,-0.17230614281100642,,state,Soft 20,soft,20,Hit,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,13,-0.17230614281100642,,pair,2+2,hard,4,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,13,-0.17230614281100642,,pair,3+3,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,13,-0.17230614281100642,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,13,-0.17230614281100642,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,13,-0.17230614281100642,,pair,6+6,hard,12,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit
+generation,13,-0.17230614281100642,,pair,7+7,hard,14,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,13,-0.17230614281100642,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit
+generation,13,-0.17230614281100642,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,13,-0.17230614281100642,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,13,-0.17230614281100642,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit
+generation,14,-0.18111256258712682,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand
+generation,14,-0.18111256258712682,,state,Hard 5,hard,5,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Stand
+generation,14,-0.18111256258712682,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,14,-0.18111256258712682,,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Hit
+generation,14,-0.18111256258712682,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Hit
+generation,14,-0.18111256258712682,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand
+generation,14,-0.18111256258712682,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit
+generation,14,-0.18111256258712682,,state,Hard 11,hard,11,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit,Hit,Hit
+generation,14,-0.18111256258712682,,state,Hard 12,hard,12,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Hit
+generation,14,-0.18111256258712682,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand
+generation,14,-0.18111256258712682,,state,Hard 14,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand
+generation,14,-0.18111256258712682,,state,Hard 15,hard,15,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,14,-0.18111256258712682,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit
+generation,14,-0.18111256258712682,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,14,-0.18111256258712682,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,14,-0.18111256258712682,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,14,-0.18111256258712682,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,14,-0.18111256258712682,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,14,-0.18111256258712682,,state,Soft 13,soft,13,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,14,-0.18111256258712682,,state,Soft 14,soft,14,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,14,-0.18111256258712682,,state,Soft 15,soft,15,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,14,-0.18111256258712682,,state,Soft 16,soft,16,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,14,-0.18111256258712682,,state,Soft 17,soft,17,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Hit
+generation,14,-0.18111256258712682,,state,Soft 18,soft,18,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Stand,Hit
+generation,14,-0.18111256258712682,,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,14,-0.18111256258712682,,state,Soft 20,soft,20,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Stand
+generation,14,-0.18111256258712682,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand
+generation,14,-0.18111256258712682,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,14,-0.18111256258712682,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Hit
+generation,14,-0.18111256258712682,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit
+generation,14,-0.18111256258712682,,pair,6+6,hard,12,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand,Hit
+generation,14,-0.18111256258712682,,pair,7+7,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand
+generation,14,-0.18111256258712682,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit
+generation,14,-0.18111256258712682,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,14,-0.18111256258712682,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,14,-0.18111256258712682,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,15,-0.20495667409625543,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,15,-0.20495667409625543,,state,Hard 5,hard,5,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,15,-0.20495667409625543,,state,Hard 6,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,15,-0.20495667409625543,,state,Hard 7,hard,7,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit
+generation,15,-0.20495667409625543,,state,Hard 8,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Stand
+generation,15,-0.20495667409625543,,state,Hard 9,hard,9,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,15,-0.20495667409625543,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Hit
+generation,15,-0.20495667409625543,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Hit
+generation,15,-0.20495667409625543,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,15,-0.20495667409625543,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand
+generation,15,-0.20495667409625543,,state,Hard 14,hard,14,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,15,-0.20495667409625543,,state,Hard 15,hard,15,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit
+generation,15,-0.20495667409625543,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,15,-0.20495667409625543,,state,Hard 17,hard,17,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit,Stand,Stand
+generation,15,-0.20495667409625543,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,15,-0.20495667409625543,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,15,-0.20495667409625543,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,15,-0.20495667409625543,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Hit,Stand,Stand,Stand,Stand
+generation,15,-0.20495667409625543,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,15,-0.20495667409625543,,state,Soft 14,soft,14,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,15,-0.20495667409625543,,state,Soft 15,soft,15,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Stand,Hit
+generation,15,-0.20495667409625543,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Hit,Hit
+generation,15,-0.20495667409625543,,state,Soft 17,soft,17,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,15,-0.20495667409625543,,state,Soft 18,soft,18,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,15,-0.20495667409625543,,state,Soft 19,soft,19,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,15,-0.20495667409625543,,state,Soft 20,soft,20,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Hit,Hit
+generation,15,-0.20495667409625543,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,15,-0.20495667409625543,,pair,3+3,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,15,-0.20495667409625543,,pair,4+4,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Stand
+generation,15,-0.20495667409625543,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Hit
+generation,15,-0.20495667409625543,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Stand
+generation,15,-0.20495667409625543,,pair,7+7,hard,14,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,15,-0.20495667409625543,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,15,-0.20495667409625543,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,15,-0.20495667409625543,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,15,-0.20495667409625543,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Hit,Stand,Stand,Stand,Stand
+generation,16,-0.1888788766456652,,state,Hard 4,hard,4,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand
+generation,16,-0.1888788766456652,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,16,-0.1888788766456652,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand
+generation,16,-0.1888788766456652,,state,Hard 7,hard,7,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Hit
+generation,16,-0.1888788766456652,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,16,-0.1888788766456652,,state,Hard 9,hard,9,Hit,Stand,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit
+generation,16,-0.1888788766456652,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Hit
+generation,16,-0.1888788766456652,,state,Hard 11,hard,11,Hit,Stand,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand
+generation,16,-0.1888788766456652,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit
+generation,16,-0.1888788766456652,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand
+generation,16,-0.1888788766456652,,state,Hard 14,hard,14,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,16,-0.1888788766456652,,state,Hard 15,hard,15,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,16,-0.1888788766456652,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,16,-0.1888788766456652,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,16,-0.1888788766456652,,state,Hard 18,hard,18,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,16,-0.1888788766456652,,state,Hard 19,hard,19,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,16,-0.1888788766456652,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,16,-0.1888788766456652,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,16,-0.1888788766456652,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,16,-0.1888788766456652,,state,Soft 14,soft,14,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,16,-0.1888788766456652,,state,Soft 15,soft,15,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Hit
+generation,16,-0.1888788766456652,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit
+generation,16,-0.1888788766456652,,state,Soft 17,soft,17,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit
+generation,16,-0.1888788766456652,,state,Soft 18,soft,18,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,16,-0.1888788766456652,,state,Soft 19,soft,19,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,16,-0.1888788766456652,,state,Soft 20,soft,20,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Stand
+generation,16,-0.1888788766456652,,pair,2+2,hard,4,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand
+generation,16,-0.1888788766456652,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand
+generation,16,-0.1888788766456652,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Hit
+generation,16,-0.1888788766456652,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Hit
+generation,16,-0.1888788766456652,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit
+generation,16,-0.1888788766456652,,pair,7+7,hard,14,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,16,-0.1888788766456652,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,16,-0.1888788766456652,,pair,9+9,hard,18,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,16,-0.1888788766456652,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,16,-0.1888788766456652,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,17,-0.1583913284524738,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,17,-0.1583913284524738,,state,Hard 5,hard,5,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+generation,17,-0.1583913284524738,,state,Hard 6,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,17,-0.1583913284524738,,state,Hard 7,hard,7,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Hit
+generation,17,-0.1583913284524738,,state,Hard 8,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Stand,Stand
+generation,17,-0.1583913284524738,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand
+generation,17,-0.1583913284524738,,state,Hard 10,hard,10,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,17,-0.1583913284524738,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Hit
+generation,17,-0.1583913284524738,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,17,-0.1583913284524738,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand
+generation,17,-0.1583913284524738,,state,Hard 14,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,17,-0.1583913284524738,,state,Hard 15,hard,15,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand
+generation,17,-0.1583913284524738,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,17,-0.1583913284524738,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Hit,Stand,Stand
+generation,17,-0.1583913284524738,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,17,-0.1583913284524738,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,17,-0.1583913284524738,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit
+generation,17,-0.1583913284524738,,state,Soft 12,soft,12,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,17,-0.1583913284524738,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,17,-0.1583913284524738,,state,Soft 14,soft,14,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,17,-0.1583913284524738,,state,Soft 15,soft,15,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,17,-0.1583913284524738,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit
+generation,17,-0.1583913284524738,,state,Soft 17,soft,17,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,17,-0.1583913284524738,,state,Soft 18,soft,18,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,17,-0.1583913284524738,,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,17,-0.1583913284524738,,state,Soft 20,soft,20,Stand,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+generation,17,-0.1583913284524738,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,17,-0.1583913284524738,,pair,3+3,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,17,-0.1583913284524738,,pair,4+4,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Stand,Stand
+generation,17,-0.1583913284524738,,pair,5+5,hard,10,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Hit
+generation,17,-0.1583913284524738,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,17,-0.1583913284524738,,pair,7+7,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,17,-0.1583913284524738,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,17,-0.1583913284524738,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,17,-0.1583913284524738,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit
+generation,17,-0.1583913284524738,,pair,A+A,soft,12,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,18,-0.1572468671187221,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,18,-0.1572468671187221,,state,Hard 5,hard,5,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Hit
+generation,18,-0.1572468671187221,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,18,-0.1572468671187221,,state,Hard 7,hard,7,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,18,-0.1572468671187221,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Hit
+generation,18,-0.1572468671187221,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand
+generation,18,-0.1572468671187221,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,18,-0.1572468671187221,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand
+generation,18,-0.1572468671187221,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,18,-0.1572468671187221,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand
+generation,18,-0.1572468671187221,,state,Hard 14,hard,14,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,18,-0.1572468671187221,,state,Hard 15,hard,15,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand
+generation,18,-0.1572468671187221,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit
+generation,18,-0.1572468671187221,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,18,-0.1572468671187221,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,18,-0.1572468671187221,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,18,-0.1572468671187221,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,18,-0.1572468671187221,,state,Soft 12,soft,12,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand
+generation,18,-0.1572468671187221,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+generation,18,-0.1572468671187221,,state,Soft 14,soft,14,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,18,-0.1572468671187221,,state,Soft 15,soft,15,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit,Stand,Hit
+generation,18,-0.1572468671187221,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit
+generation,18,-0.1572468671187221,,state,Soft 17,soft,17,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,18,-0.1572468671187221,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit
+generation,18,-0.1572468671187221,,state,Soft 19,soft,19,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,18,-0.1572468671187221,,state,Soft 20,soft,20,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit,Hit,Stand
+generation,18,-0.1572468671187221,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,18,-0.1572468671187221,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,18,-0.1572468671187221,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Hit
+generation,18,-0.1572468671187221,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,18,-0.1572468671187221,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,18,-0.1572468671187221,,pair,7+7,hard,14,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,18,-0.1572468671187221,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit
+generation,18,-0.1572468671187221,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,18,-0.1572468671187221,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,18,-0.1572468671187221,,pair,A+A,soft,12,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand
+generation,19,-0.16204113471324305,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,19,-0.16204113471324305,,state,Hard 5,hard,5,Stand,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Hit,Stand
+generation,19,-0.16204113471324305,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,19,-0.16204113471324305,,state,Hard 7,hard,7,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,19,-0.16204113471324305,,state,Hard 8,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Stand
+generation,19,-0.16204113471324305,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand
+generation,19,-0.16204113471324305,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,19,-0.16204113471324305,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Hit
+generation,19,-0.16204113471324305,,state,Hard 12,hard,12,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Stand,Stand
+generation,19,-0.16204113471324305,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand
+generation,19,-0.16204113471324305,,state,Hard 14,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,19,-0.16204113471324305,,state,Hard 15,hard,15,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,19,-0.16204113471324305,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,19,-0.16204113471324305,,state,Hard 17,hard,17,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,19,-0.16204113471324305,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,19,-0.16204113471324305,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,19,-0.16204113471324305,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,19,-0.16204113471324305,,state,Soft 12,soft,12,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,19,-0.16204113471324305,,state,Soft 13,soft,13,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,19,-0.16204113471324305,,state,Soft 14,soft,14,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,19,-0.16204113471324305,,state,Soft 15,soft,15,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,19,-0.16204113471324305,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Hit,Hit
+generation,19,-0.16204113471324305,,state,Soft 17,soft,17,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,19,-0.16204113471324305,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Hit
+generation,19,-0.16204113471324305,,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand
+generation,19,-0.16204113471324305,,state,Soft 20,soft,20,Stand,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+generation,19,-0.16204113471324305,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,19,-0.16204113471324305,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,19,-0.16204113471324305,,pair,4+4,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Stand
+generation,19,-0.16204113471324305,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,19,-0.16204113471324305,,pair,6+6,hard,12,Hit,Stand,Hit,Hit,Stand,Hit,Stand,Hit,Stand,Stand
+generation,19,-0.16204113471324305,,pair,7+7,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,19,-0.16204113471324305,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,19,-0.16204113471324305,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,19,-0.16204113471324305,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,19,-0.16204113471324305,,pair,A+A,soft,12,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand
+generation,20,-0.165939818483342,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,20,-0.165939818483342,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Hit
+generation,20,-0.165939818483342,,state,Hard 6,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,20,-0.165939818483342,,state,Hard 7,hard,7,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,20,-0.165939818483342,,state,Hard 8,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Stand
+generation,20,-0.165939818483342,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand
+generation,20,-0.165939818483342,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,20,-0.165939818483342,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Hit
+generation,20,-0.165939818483342,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,20,-0.165939818483342,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand
+generation,20,-0.165939818483342,,state,Hard 14,hard,14,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,20,-0.165939818483342,,state,Hard 15,hard,15,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Hit
+generation,20,-0.165939818483342,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,20,-0.165939818483342,,state,Hard 17,hard,17,Stand,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,20,-0.165939818483342,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,20,-0.165939818483342,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,20,-0.165939818483342,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,20,-0.165939818483342,,state,Soft 12,soft,12,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand
+generation,20,-0.165939818483342,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+generation,20,-0.165939818483342,,state,Soft 14,soft,14,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,20,-0.165939818483342,,state,Soft 15,soft,15,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,20,-0.165939818483342,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Hit,Hit,Hit
+generation,20,-0.165939818483342,,state,Soft 17,soft,17,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,20,-0.165939818483342,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit
+generation,20,-0.165939818483342,,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand
+generation,20,-0.165939818483342,,state,Soft 20,soft,20,Stand,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+generation,20,-0.165939818483342,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,20,-0.165939818483342,,pair,3+3,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,20,-0.165939818483342,,pair,4+4,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Stand
+generation,20,-0.165939818483342,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit
+generation,20,-0.165939818483342,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,20,-0.165939818483342,,pair,7+7,hard,14,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,20,-0.165939818483342,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,20,-0.165939818483342,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,20,-0.165939818483342,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,20,-0.165939818483342,,pair,A+A,soft,12,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand
+generation,21,-0.14604419023611515,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,21,-0.14604419023611515,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+generation,21,-0.14604419023611515,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,21,-0.14604419023611515,,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Hit
+generation,21,-0.14604419023611515,,state,Hard 8,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand
+generation,21,-0.14604419023611515,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand
+generation,21,-0.14604419023611515,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+generation,21,-0.14604419023611515,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Hit
+generation,21,-0.14604419023611515,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,21,-0.14604419023611515,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand
+generation,21,-0.14604419023611515,,state,Hard 14,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,21,-0.14604419023611515,,state,Hard 15,hard,15,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Hit
+generation,21,-0.14604419023611515,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,21,-0.14604419023611515,,state,Hard 17,hard,17,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,21,-0.14604419023611515,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,21,-0.14604419023611515,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,21,-0.14604419023611515,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,21,-0.14604419023611515,,state,Soft 12,soft,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Stand
+generation,21,-0.14604419023611515,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+generation,21,-0.14604419023611515,,state,Soft 14,soft,14,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,21,-0.14604419023611515,,state,Soft 15,soft,15,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,21,-0.14604419023611515,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit
+generation,21,-0.14604419023611515,,state,Soft 17,soft,17,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,21,-0.14604419023611515,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Hit
+generation,21,-0.14604419023611515,,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand
+generation,21,-0.14604419023611515,,state,Soft 20,soft,20,Stand,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+generation,21,-0.14604419023611515,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+generation,21,-0.14604419023611515,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,21,-0.14604419023611515,,pair,4+4,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand
+generation,21,-0.14604419023611515,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+generation,21,-0.14604419023611515,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,21,-0.14604419023611515,,pair,7+7,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,21,-0.14604419023611515,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,21,-0.14604419023611515,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,21,-0.14604419023611515,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,21,-0.14604419023611515,,pair,A+A,soft,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Stand
+generation,22,-0.20755966969763595,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,22,-0.20755966969763595,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,22,-0.20755966969763595,,state,Hard 6,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,22,-0.20755966969763595,,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,22,-0.20755966969763595,,state,Hard 8,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Stand
+generation,22,-0.20755966969763595,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand
+generation,22,-0.20755966969763595,,state,Hard 10,hard,10,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit
+generation,22,-0.20755966969763595,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Hit
+generation,22,-0.20755966969763595,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Hit
+generation,22,-0.20755966969763595,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand
+generation,22,-0.20755966969763595,,state,Hard 14,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,22,-0.20755966969763595,,state,Hard 15,hard,15,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Hit
+generation,22,-0.20755966969763595,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,22,-0.20755966969763595,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand
+generation,22,-0.20755966969763595,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,22,-0.20755966969763595,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,22,-0.20755966969763595,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,22,-0.20755966969763595,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit,Stand
+generation,22,-0.20755966969763595,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,22,-0.20755966969763595,,state,Soft 14,soft,14,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,22,-0.20755966969763595,,state,Soft 15,soft,15,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,22,-0.20755966969763595,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Hit,Hit,Hit
+generation,22,-0.20755966969763595,,state,Soft 17,soft,17,Hit,Stand,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit
+generation,22,-0.20755966969763595,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit
+generation,22,-0.20755966969763595,,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand
+generation,22,-0.20755966969763595,,state,Soft 20,soft,20,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Stand
+generation,22,-0.20755966969763595,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,22,-0.20755966969763595,,pair,3+3,hard,6,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,22,-0.20755966969763595,,pair,4+4,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Stand
+generation,22,-0.20755966969763595,,pair,5+5,hard,10,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit
+generation,22,-0.20755966969763595,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand,Hit
+generation,22,-0.20755966969763595,,pair,7+7,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,22,-0.20755966969763595,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,22,-0.20755966969763595,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,22,-0.20755966969763595,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,22,-0.20755966969763595,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Hit,Stand
+generation,23,-0.15235748587801526,,state,Hard 4,hard,4,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,23,-0.15235748587801526,,state,Hard 5,hard,5,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+generation,23,-0.15235748587801526,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,23,-0.15235748587801526,,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,23,-0.15235748587801526,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Stand
+generation,23,-0.15235748587801526,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand
+generation,23,-0.15235748587801526,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Hit
+generation,23,-0.15235748587801526,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand
+generation,23,-0.15235748587801526,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,23,-0.15235748587801526,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Stand
+generation,23,-0.15235748587801526,,state,Hard 14,hard,14,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,23,-0.15235748587801526,,state,Hard 15,hard,15,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Stand
+generation,23,-0.15235748587801526,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit
+generation,23,-0.15235748587801526,,state,Hard 17,hard,17,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit,Stand,Stand
+generation,23,-0.15235748587801526,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand
+generation,23,-0.15235748587801526,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,23,-0.15235748587801526,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,23,-0.15235748587801526,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Hit,Stand,Stand
+generation,23,-0.15235748587801526,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+generation,23,-0.15235748587801526,,state,Soft 14,soft,14,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,23,-0.15235748587801526,,state,Soft 15,soft,15,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand,Hit
+generation,23,-0.15235748587801526,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Hit,Hit
+generation,23,-0.15235748587801526,,state,Soft 17,soft,17,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,23,-0.15235748587801526,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+generation,23,-0.15235748587801526,,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,23,-0.15235748587801526,,state,Soft 20,soft,20,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Stand
+generation,23,-0.15235748587801526,,pair,2+2,hard,4,Stand,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,23,-0.15235748587801526,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,23,-0.15235748587801526,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Stand
+generation,23,-0.15235748587801526,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Hit
+generation,23,-0.15235748587801526,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,23,-0.15235748587801526,,pair,7+7,hard,14,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,23,-0.15235748587801526,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit
+generation,23,-0.15235748587801526,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Stand,Stand
+generation,23,-0.15235748587801526,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,23,-0.15235748587801526,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Hit,Stand,Stand
+generation,24,-0.16678211067458226,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand
+generation,24,-0.16678211067458226,,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand,Hit
+generation,24,-0.16678211067458226,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,24,-0.16678211067458226,,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,24,-0.16678211067458226,,state,Hard 8,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Hit
+generation,24,-0.16678211067458226,,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand
+generation,24,-0.16678211067458226,,state,Hard 10,hard,10,Hit,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand
+generation,24,-0.16678211067458226,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Hit
+generation,24,-0.16678211067458226,,state,Hard 12,hard,12,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,24,-0.16678211067458226,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand
+generation,24,-0.16678211067458226,,state,Hard 14,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,24,-0.16678211067458226,,state,Hard 15,hard,15,Hit,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,24,-0.16678211067458226,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,24,-0.16678211067458226,,state,Hard 17,hard,17,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,24,-0.16678211067458226,,state,Hard 18,hard,18,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Stand
+generation,24,-0.16678211067458226,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,24,-0.16678211067458226,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,24,-0.16678211067458226,,state,Soft 12,soft,12,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,24,-0.16678211067458226,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Hit,Hit
+generation,24,-0.16678211067458226,,state,Soft 14,soft,14,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+generation,24,-0.16678211067458226,,state,Soft 15,soft,15,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Hit
+generation,24,-0.16678211067458226,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,24,-0.16678211067458226,,state,Soft 17,soft,17,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,24,-0.16678211067458226,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Stand,Stand,Hit
+generation,24,-0.16678211067458226,,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Stand
+generation,24,-0.16678211067458226,,state,Soft 20,soft,20,Hit,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Stand,Stand
+generation,24,-0.16678211067458226,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand
+generation,24,-0.16678211067458226,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,24,-0.16678211067458226,,pair,4+4,hard,8,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Hit
+generation,24,-0.16678211067458226,,pair,5+5,hard,10,Hit,Stand,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand
+generation,24,-0.16678211067458226,,pair,6+6,hard,12,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,24,-0.16678211067458226,,pair,7+7,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,24,-0.16678211067458226,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+generation,24,-0.16678211067458226,,pair,9+9,hard,18,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Stand
+generation,24,-0.16678211067458226,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,24,-0.16678211067458226,,pair,A+A,soft,12,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,25,-0.10990715860933423,,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,25,-0.10990715860933423,,state,Hard 5,hard,5,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Hit,Stand,Stand
+generation,25,-0.10990715860933423,,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,25,-0.10990715860933423,,state,Hard 7,hard,7,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Hit
+generation,25,-0.10990715860933423,,state,Hard 8,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Hit
+generation,25,-0.10990715860933423,,state,Hard 9,hard,9,Stand,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand
+generation,25,-0.10990715860933423,,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand
+generation,25,-0.10990715860933423,,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand
+generation,25,-0.10990715860933423,,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit
+generation,25,-0.10990715860933423,,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand
+generation,25,-0.10990715860933423,,state,Hard 14,hard,14,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,25,-0.10990715860933423,,state,Hard 15,hard,15,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Hit
+generation,25,-0.10990715860933423,,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit
+generation,25,-0.10990715860933423,,state,Hard 17,hard,17,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+generation,25,-0.10990715860933423,,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,25,-0.10990715860933423,,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,25,-0.10990715860933423,,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,25,-0.10990715860933423,,state,Soft 12,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+generation,25,-0.10990715860933423,,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+generation,25,-0.10990715860933423,,state,Soft 14,soft,14,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,25,-0.10990715860933423,,state,Soft 15,soft,15,Hit,Hit,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Hit
+generation,25,-0.10990715860933423,,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Hit,Hit
+generation,25,-0.10990715860933423,,state,Soft 17,soft,17,Hit,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+generation,25,-0.10990715860933423,,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Hit,Stand,Hit,Hit,Stand,Hit
+generation,25,-0.10990715860933423,,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand
+generation,25,-0.10990715860933423,,state,Soft 20,soft,20,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand
+generation,25,-0.10990715860933423,,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit,Stand
+generation,25,-0.10990715860933423,,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Hit,Stand
+generation,25,-0.10990715860933423,,pair,4+4,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit,Hit
+generation,25,-0.10990715860933423,,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Stand
+generation,25,-0.10990715860933423,,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Stand,Hit
+generation,25,-0.10990715860933423,,pair,7+7,hard,14,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+generation,25,-0.10990715860933423,,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Hit
+generation,25,-0.10990715860933423,,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+generation,25,-0.10990715860933423,,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+generation,25,-0.10990715860933423,,pair,A+A,soft,12,Hit,Hit,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 4,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 5,hard,5,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 6,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 7,hard,7,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 8,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 9,hard,9,Hit,Stand,Hit,Hit,Hit,Stand,Hit,Hit,Hit,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 10,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 11,hard,11,Hit,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Hit,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 12,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 13,hard,13,Stand,Stand,Hit,Hit,Hit,Hit,Hit,Hit,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 14,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 15,hard,15,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Hit,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 16,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 17,hard,17,Stand,Hit,Stand,Stand,Hit,Stand,Stand,Hit,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 18,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 19,hard,19,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Hard 20,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Soft 12,soft,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Soft 13,soft,13,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Soft 14,soft,14,Hit,Stand,Hit,Hit,Stand,Stand,Stand,Stand,Hit,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Soft 15,soft,15,Hit,Hit,Stand,Hit,Stand,Hit,Hit,Stand,Stand,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Soft 16,soft,16,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Hit,Hit,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Soft 17,soft,17,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Soft 18,soft,18,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Hit,Stand,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,state,Soft 19,soft,19,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,state,Soft 20,soft,20,Stand,Stand,Stand,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,pair,2+2,hard,4,Stand,Stand,Stand,Stand,Stand,Stand,Hit,Stand,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,pair,3+3,hard,6,Hit,Hit,Hit,Hit,Hit,Stand,Stand,Stand,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,pair,4+4,hard,8,Stand,Hit,Stand,Stand,Hit,Stand,Hit,Stand,Hit,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,pair,5+5,hard,10,Stand,Stand,Hit,Hit,Hit,Hit,Stand,Stand,Hit,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,pair,6+6,hard,12,Hit,Stand,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,pair,7+7,hard,14,Hit,Hit,Stand,Stand,Stand,Stand,Stand,Hit,Hit,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,pair,8+8,hard,16,Stand,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Stand,Hit
+final,21,-0.14604419023611515,-0.18425684494778966,pair,9+9,hard,18,Stand,Hit,Stand,Stand,Stand,Hit,Stand,Hit,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,pair,10+10,hard,20,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand,Stand
+final,21,-0.14604419023611515,-0.18425684494778966,pair,A+A,soft,12,Hit,Hit,Stand,Stand,Stand,Hit,Hit,Stand,Stand,Stand

@@ -1,0 +1,4 @@
+policy,mean_return_per_hand,sd_return_per_hand
+Evolved,-0.09675,0.0
+Random Play,-0.306575,0.0
+Basic Strategy,-0.021825,0.0

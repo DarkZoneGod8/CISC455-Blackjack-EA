@@ -1,0 +1,193 @@
+config_id,pop_size,num_generations,tournament_size,crossover_rate,mutation_rate,elitism_count,num_hands,validation_hands,crossover_type,parent_selection,survivor_selection,mutation_type,fitness_objective,risk_penalty,initial_hit_probability,num_runs,policy,mean_return_per_hand,sd_return_per_hand
+config_001,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.10771666666666667,0.009557574076208997
+config_001,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_001,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_002,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.09723333333333334,0.008147835431709589
+config_002,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_002,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_003,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.10475000000000001,0.013185424402220303
+config_003,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_003,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_004,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.10879166666666666,0.01605322311008672
+config_004,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_004,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_005,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.10099166666666666,0.0040896379899556965
+config_005,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_005,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_006,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.10354999999999999,0.00044205957366249844
+config_006,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_006,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_007,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.08963333333333334,0.008232059618075877
+config_007,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_007,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_008,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.08973333333333333,0.009134785468502016
+config_008,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_008,60,25,4,0.9,0.005,6,1000,5000,uniform,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_009,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.10452499999999999,0.009208442684116932
+config_009,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_009,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_010,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.111425,0.007369899366115297
+config_010,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_010,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_011,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.09868333333333333,0.012791213347016335
+config_011,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_011,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_012,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.09870833333333333,0.0018395349653890507
+config_012,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_012,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_013,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.12143333333333332,0.0014347376841158841
+config_013,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_013,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_014,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.11943333333333334,0.013067873031046614
+config_014,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_014,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_015,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.11464999999999999,0.006830446544699695
+config_015,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_015,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_016,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.12140833333333334,0.015895194941309226
+config_016,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_016,60,25,4,0.9,0.005,6,1000,5000,uniform,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_017,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.14629166666666668,0.011494569974074236
+config_017,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_017,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_018,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.14614166666666664,0.010600203090297635
+config_018,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_018,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_019,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.15325,0.006558804515052003
+config_019,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_019,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_020,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.1382,0.012243484661919851
+config_020,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_020,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_021,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.14905833333333332,0.021336259564933634
+config_021,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_021,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_022,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.1437166666666667,0.0060677196888305725
+config_022,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_022,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_023,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.14805833333333332,0.012653463513555835
+config_023,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_023,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_024,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.13308333333333333,0.010390908151948135
+config_024,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_024,60,25,4,0.9,0.005,6,1000,5000,one_point,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_025,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.1462166666666667,0.012436443980852759
+config_025,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_025,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_026,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.16006666666666666,0.011158709851750588
+config_026,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_026,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_027,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.161125,0.013495740068629065
+config_027,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_027,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_028,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.13589166666666666,0.013523287527652271
+config_028,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_028,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_029,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.1743,0.018154166188508913
+config_029,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_029,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_030,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.15206666666666668,0.010716835146420585
+config_030,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_030,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_031,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.13629166666666667,0.002678022695115849
+config_031,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_031,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_032,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.14299166666666666,0.006110316867579151
+config_032,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_032,60,25,4,0.9,0.005,6,1000,5000,one_point,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_033,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.11112499999999999,0.009168514965176566
+config_033,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_033,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_034,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.09350000000000001,0.0036878742747911953
+config_034,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_034,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_035,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.09960000000000001,0.013394697333895481
+config_035,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_035,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_036,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.09840833333333333,0.005917922401954552
+config_036,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_036,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_037,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.10830833333333334,0.003648192094113951
+config_037,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_037,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_038,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.1124,0.003672419729097783
+config_038,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_038,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_039,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.11514166666666666,0.012108542668527686
+config_039,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_039,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_040,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.09965,0.0074687125173396925
+config_040,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_040,60,25,4,0.9,0.02,6,1000,5000,uniform,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_041,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.11805833333333333,0.0017654476926704918
+config_041,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_041,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_042,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.12191666666666667,0.00947473247936614
+config_042,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_042,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_043,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.11675,0.010855643693489575
+config_043,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_043,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_044,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.11361666666666666,0.015428671002030242
+config_044,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_044,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_045,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.11888333333333334,0.008047886195904009
+config_045,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_045,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_046,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.12688333333333332,0.009114464999231837
+config_046,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_046,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_047,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.12131666666666667,0.027081823034812276
+config_047,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_047,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_048,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.125525,0.0013324476224852847
+config_048,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_048,60,25,4,0.9,0.02,6,1000,5000,uniform,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_049,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.1293,0.0008517139582434133
+config_049,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_049,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_050,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.130575,0.008914805101627293
+config_050,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_050,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_051,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.12825,0.013718797930819841
+config_051,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_051,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_052,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.12425000000000001,0.012547426695010685
+config_052,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_052,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_053,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.139325,0.006913151717318719
+config_053,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_053,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_054,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.12705833333333333,0.0049715998989817685
+config_054,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_054,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_055,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.12462499999999999,0.008869352663338327
+config_055,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_055,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_056,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.11350833333333332,0.003633715576223448
+config_056,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_056,60,25,4,0.9,0.02,6,1000,5000,one_point,tournament,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_057,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.13915,0.01426080000093496
+config_057,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_057,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_058,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.13825833333333334,0.0036108824713942493
+config_058,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_058,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_059,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.12975,0.02291470597673031
+config_059,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_059,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_060,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.1411333333333333,0.009662951872429507
+config_060,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_060,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,elitism,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_061,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Evolved,-0.13020833333333334,0.01916786952747285
+config_061,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_061,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,bit_flip,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_062,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Evolved,-0.165975,0.017487471705957575
+config_062,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_062,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,bit_flip,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_063,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Evolved,-0.134825,0.011924991264846554
+config_063,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_063,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,fixed_count,mean_return,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033
+config_064,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Evolved,-0.14399166666666666,0.015583302139006218
+config_064,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Random Play,-0.2967916666666666,0.0038352169285307694
+config_064,60,25,4,0.9,0.02,6,1000,5000,one_point,rank,offspring_only,fixed_count,risk_adjusted,0.1,0.5,3,Basic Strategy,-0.022991666666666664,0.005485485899677033

@@ -1,0 +1,40 @@
+{
+  "batch_id": "batch_20261119_235034_r5hi426i",
+  "config_id": "config_002",
+  "ea": {
+    "pop_size": 40,
+    "num_generations": 25,
+    "tournament_size": 4,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.01,
+    "elitism_count": 6,
+    "num_hands": 1500,
+    "validation_hands": 5000,
+    "crossover_type": "uniform",
+    "parent_selection": "tournament",
+    "survivor_selection": "elitism",
+    "mutation_type": "bit_flip",
+    "fitness_objective": "mean_return",
+    "risk_penalty": 0.1,
+    "initial_hit_probability": 0.5
+  },
+  "blackjack": {
+    "num_decks": 6,
+    "penetration": 0.75,
+    "hit_soft_17": false,
+    "blackjack_payout": 1.5,
+    "win_payout": 1.0,
+    "loss_payout": 1.0
+  },
+  "seed": 455852,
+  "num_runs": 5,
+  "test_hands": 20000,
+  "numpy_version": "2.4.6",
+  "matplotlib_version": "3.10.0",
+  "run": 1,
+  "run_id": "run_c002_r01_m0.01_tournament_uniform_bit_flip_elitism_mean_return_20261119_235055_ly30jusb",
+  "run_spawn_key": [
+    0
+  ],
+  "selected_generation": 24
+}
